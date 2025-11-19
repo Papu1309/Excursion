@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Магазин"
         mc:Ignorable="d"
-        Title="Shopping Live"  Icon="Logo\Shop.jpg" WindowStyle="SingleBorderWindow" WindowState="Maximized" >
+        Title="Shopping Live"  WindowStyle="SingleBorderWindow" WindowState="Maximized" >
     <Grid>
         <Frame x:Name="newFrame"  />
     </Grid>

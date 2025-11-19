@@ -45,7 +45,7 @@ namespace Магазин.Pages
                 }
                 else
                 {
-                    MessageBox.Show("Дурачок, пиши нормально,если зареган", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show("Дурачек, пиши нормально,если зареган", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
             

@@ -33,7 +33,11 @@ namespace Магазин.Pages
                 //NavigationService.Navigate(new VidAdmin());
                 MessageBox.Show("Ну это на 4 :)", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-            
+            else
+            {
+                MessageBox.Show("Дурачек, пиши нормально,если зареган", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+
         }
 
         private void txbBack_Click(object sender, RoutedEventArgs e)
