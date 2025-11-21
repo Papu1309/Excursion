@@ -9,7 +9,7 @@ namespace Магазин.Connect
 {
     public class Connection1
     {
-        public static RegistrationEntities2 entities = new RegistrationEntities2();
+        public static RegistrationEntities3 entities = new RegistrationEntities3();
     }
 }
 

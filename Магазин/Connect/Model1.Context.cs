@@ -13,10 +13,10 @@ namespace Магазин.Connect
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class RegistrationEntities2 : DbContext
+    public partial class RegistrationEntities3 : DbContext
     {
-        public RegistrationEntities2()
-            : base("name=RegistrationEntities2")
+        public RegistrationEntities3()
+            : base("name=RegistrationEntities3")
         {
         }
     

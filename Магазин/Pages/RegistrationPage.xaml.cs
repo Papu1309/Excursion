@@ -31,8 +31,18 @@ namespace Магазин.Pages
 
         private void btnRegOchova_Click(object sender, RoutedEventArgs e)
         {
-            RegisterUser(txbLogin.Text, txbPassword.Text);
-            NavigationService.Navigate(new aa());
+            if (txbLogin != null && txbPassword != null)
+            {
+                if (txbLogin.Text != "" && txbPassword.Text != "")
+                {
+                    RegisterUser(txbLogin.Text, txbPassword.Text);
+                    NavigationService.Navigate(new aa());
+                }
+                else
+                {
+                    MessageBox.Show("Дурачек,а кто будет писать?", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
         }
         private void RegisterUser( string email, string password)
         {
